@@ -1,1 +1,41 @@
 /* Ini File CSS */
+
+.main-header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.main-section {
+    width: 40%;
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    background-color: linen;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=number] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
