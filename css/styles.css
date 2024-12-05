@@ -1,8 +1,10 @@
 /* Ini File CSS */
 
+/* Judul Website */
 .main-header {
     text-align: center;
 }
+
 
 main {
     display: flex
@@ -23,6 +25,14 @@ form {
     background-color: linen;
     padding: 14px;
     border-radius: 8px;
+}
+
+.form-item-jk {
+    margin-top: 5px;
+    display: flex
+;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .form-item {
@@ -60,4 +70,14 @@ input[type=number] {
 
 .color-wheat {
     color: wheat;
+}
+
+.box {
+    background-color: linen;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.download-button {
+    text-align: center;
 }
